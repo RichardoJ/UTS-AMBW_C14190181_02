@@ -81,8 +81,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
               ),
               Container(
-                padding: const EdgeInsets.only(
-                    left: 8.0, top: 12.0, right: 8.0, bottom: 8.0),
+                padding: const EdgeInsets.only(top: 12.0,bottom: 8.0),
                 child: Container(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -95,6 +94,7 @@ class MyApp extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Container(
+                              margin: const EdgeInsets.only(left: 8.0),
                               padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 0.0,
@@ -125,6 +125,7 @@ class MyApp extends StatelessWidget {
                       ),
                       Container(
                         color: Colors.greenAccent,
+                        margin: const EdgeInsets.only(left: 8.0),
                         padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -162,6 +163,7 @@ class MyApp extends StatelessWidget {
                       ),
                       Container(
                         color: Colors.greenAccent,
+                        margin: const EdgeInsets.only(left: 8.0),
                         padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -197,6 +199,7 @@ class MyApp extends StatelessWidget {
                       ),
                       Container(
                         color: Colors.greenAccent,
+                        margin: const EdgeInsets.only(left: 8.0),
                         padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -259,12 +262,15 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             const Icon(Icons.design_services),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
-                                Text("Basic Of Designing"),
-                                Text("1 hour, 25 mins"),
-                              ],
+                            Container(
+                              margin: EdgeInsets.only(left: 8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: const [
+                                  Text("Basic Of Designing"),
+                                  Text("1 hour, 25 mins"),
+                                ],
+                              ),
                             ),
                           ],
                         ),
@@ -285,12 +291,15 @@ class MyApp extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             const Icon(Icons.bookmark),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
-                                Text("Human Respiratory System"),
-                                Text("4 hour, 10 mins"),
-                              ],
+                            Container(
+                              margin: EdgeInsets.only(left: 8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: const [
+                                  Text("Human Respiratory System"),
+                                  Text("4 hour, 10 mins"),
+                                ],
+                              ),
                             ),
                           ],
                         ),
@@ -311,12 +320,15 @@ class MyApp extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             const Icon(Icons.book_online),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
-                                Text("Integration & Differatiation"),
-                                Text("2 hour, 37 mins"),
-                              ],
+                            Container(
+                              margin: EdgeInsets.only(left: 8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: const [
+                                  Text("Integration & Differatiation"),
+                                  Text("2 hour, 37 mins"),
+                                ],
+                              ),
                             ),
                           ],
                         ),
