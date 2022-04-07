@@ -13,23 +13,23 @@ class MyApp extends StatelessWidget {
       title: "UTS Flutter",
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Test 1 - C14190181'),
+          title: const Text('Test 1 - C14190181'),
         ),
         body: Column(children: [
           Container(
-            padding: EdgeInsets.all(12.0),
+            padding: const EdgeInsets.all(12.0),
             child: Column(
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'Popular Courses : ',
                       style: TextStyle(
                           fontWeight: FontWeight.bold, fontSize: 18.0),
                     ),
                     Container(
-                      padding: EdgeInsets.all(12),
+                      padding: const EdgeInsets.all(12),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -72,16 +72,16 @@ class MyApp extends StatelessWidget {
             ),
           ),
           Container(
-            padding:
-                EdgeInsets.only(left: 12.0, top: 8.0, right: 12.0, bottom: 8.0),
+            padding: const EdgeInsets.only(
+                left: 12.0, top: 8.0, right: 12.0, bottom: 8.0),
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(
+              const Text(
                 'Continue Learning : ',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
               ),
               Container(
-                padding: EdgeInsets.only(
+                padding: const EdgeInsets.only(
                     left: 8.0, top: 12.0, right: 8.0, bottom: 8.0),
                 child: Container(
                   child: Row(
@@ -89,23 +89,24 @@ class MyApp extends StatelessWidget {
                     children: [
                       Container(
                         color: Colors.greenAccent,
-                        padding: EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 0.0,
                                   right: 0.0,
                                   bottom: 12.0),
-                              child: Icon(Icons.calendar_month, size: 50.0),
+                              child:
+                                  const Icon(Icons.calendar_month, size: 50.0),
                             ),
-                            Text("Science"),
-                            Text("Chapter 4"),
+                            const Text("Science"),
+                            const Text("Chapter 4"),
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 12.0,
                                   right: 0.0,
@@ -113,7 +114,7 @@ class MyApp extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
-                                children: [
+                                children: const [
                                   Icon(Icons.timer),
                                   Text("27 Mins"),
                                 ],
@@ -124,25 +125,25 @@ class MyApp extends StatelessWidget {
                       ),
                       Container(
                         color: Colors.greenAccent,
-                        padding: EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 0.0,
                                   right: 0.0,
                                   bottom: 12.0),
-                              child: Icon(
+                              child: const Icon(
                                 Icons.design_services,
                                 size: 50.0,
                               ),
                             ),
-                            Text("Design"),
-                            Text("Chapter 5"),
+                            const Text("Design"),
+                            const Text("Chapter 5"),
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 12.0,
                                   right: 0.0,
@@ -150,7 +151,7 @@ class MyApp extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
-                                children: [
+                                children: const [
                                   Icon(Icons.timer),
                                   Text("30 Mins"),
                                 ],
@@ -161,22 +162,23 @@ class MyApp extends StatelessWidget {
                       ),
                       Container(
                         color: Colors.greenAccent,
-                        padding: EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 0.0,
                                   right: 0.0,
                                   bottom: 12.0),
-                              child: Icon(Icons.biotech_outlined, size: 50.0),
+                              child: const Icon(Icons.biotech_outlined,
+                                  size: 50.0),
                             ),
-                            Text("Biology"),
-                            Text("Chapter 1"),
+                            const Text("Biology"),
+                            const Text("Chapter 1"),
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 12.0,
                                   right: 0.0,
@@ -184,7 +186,7 @@ class MyApp extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
-                                children: [
+                                children: const [
                                   Icon(Icons.timer),
                                   Text("25 Mins"),
                                 ],
@@ -195,22 +197,22 @@ class MyApp extends StatelessWidget {
                       ),
                       Container(
                         color: Colors.greenAccent,
-                        padding: EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 0.0,
                                   right: 0.0,
                                   bottom: 12.0),
-                              child: Icon(Icons.local_drink, size: 50.0),
+                              child: const Icon(Icons.local_drink, size: 50.0),
                             ),
-                            Text("Cooking"),
-                            Text("Chapter 3"),
+                            const Text("Cooking"),
+                            const Text("Chapter 3"),
                             Container(
-                              padding: EdgeInsets.only(
+                              padding: const EdgeInsets.only(
                                   left: 0.0,
                                   top: 12.0,
                                   right: 0.0,
@@ -218,7 +220,7 @@ class MyApp extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
-                                children: [
+                                children: const [
                                   Icon(Icons.timer),
                                   Text("18 Mins"),
                                 ],
@@ -233,85 +235,92 @@ class MyApp extends StatelessWidget {
               ),
             ]),
           ),
+
           Container(
-            padding:
-                EdgeInsets.only(left: 12.0, top: 4.0, right: 12.0, bottom: 4.0),
+            padding: const EdgeInsets.only(
+                left: 12.0, top: 4.0, right: 12.0, bottom: 4.0),
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(
+              const Text(
                 "Last Seen Courses : ",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
               ),
               Column(
                 children: [
                   Container(
-                    color: Colors.pinkAccent,
-                    margin: EdgeInsets.all(8.0),
-                    padding: EdgeInsets.all(8.0),
+                    margin: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(8.0),
+                    decoration: BoxDecoration(
+                        color: Colors.pinkAccent,
+                        borderRadius: BorderRadius.circular(10.0)),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            Icon(Icons.design_services),
+                            const Icon(Icons.design_services),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
+                              children: const [
                                 Text("Basic Of Designing"),
                                 Text("1 hour, 25 mins"),
                               ],
                             ),
                           ],
                         ),
-                        Icon(Icons.play_arrow_rounded)
+                        const Icon(Icons.play_arrow_rounded)
                       ],
                     ),
                   ),
                   Container(
-                    color: Colors.pinkAccent,
-                    margin: EdgeInsets.all(8.0),
-                    padding: EdgeInsets.all(8.0),
+                    margin: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(8.0),
+                    decoration: BoxDecoration(
+                        color: Colors.pinkAccent,
+                        borderRadius: BorderRadius.circular(10.0)),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Icon(Icons.bookmark),
+                            const Icon(Icons.bookmark),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
+                              children: const [
                                 Text("Human Respiratory System"),
                                 Text("4 hour, 10 mins"),
                               ],
                             ),
                           ],
                         ),
-                        Icon(Icons.play_arrow_rounded)
+                        const Icon(Icons.play_arrow_rounded)
                       ],
                     ),
                   ),
                   Container(
-                    color: Colors.pinkAccent,
-                    margin: EdgeInsets.all(8.0),
-                    padding: EdgeInsets.all(8.0),
+                    margin: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(8.0),
+                    decoration: BoxDecoration(
+                        color: Colors.pinkAccent,
+                        borderRadius: BorderRadius.circular(10.0)),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Icon(Icons.book_online),
+                            const Icon(Icons.book_online),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
+                              children: const [
                                 Text("Integration & Differatiation"),
                                 Text("2 hour, 37 mins"),
                               ],
                             ),
                           ],
                         ),
-                        Icon(Icons.play_arrow_rounded)
+                        const Icon(Icons.play_arrow_rounded)
                       ],
                     ),
                   )
@@ -320,10 +329,10 @@ class MyApp extends StatelessWidget {
             ]),
           ),
           Container(
-            decoration:
-                BoxDecoration(border: Border.all(color: Colors.grey)),
+            decoration: BoxDecoration(border: Border.all(color: Colors.grey)),
+            margin: EdgeInsets.only(left: 0.0,top: 8.0,right: 0.0,bottom: 0.0),
             padding: const EdgeInsets.only(
-                left: 8.0, top: 20.0, right: 8.0, bottom: 8.0),
+                left: 8.0, top: 12.0, right: 8.0, bottom: 8.0),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
